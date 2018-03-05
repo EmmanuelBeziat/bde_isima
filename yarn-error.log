@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install -D gulp gulp-sass gulp-autoprefixer gulp-uglify gulp-sourcemaps gulp-concat gulp-plumber
+
+PATH: 
+  /usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/mysql/sbin:/Applications/MAMP/bin/php/php7.1.6/bin/php:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Emmanuel/.composer/vendor/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Emmanuel/.yarn/bin:/Users/Emmanuel/.poultou/bin:/Users/Emmanuel/.poultou/bin/poultou
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.6.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "bde_isima",
+    "version": "1.0.0",
+    "description": "Dimension by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+    "main": "index.php",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/EmmanuelBeziat/bde_isima.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/EmmanuelBeziat/bde_isima/issues"
+    },
+    "homepage": "https://github.com/EmmanuelBeziat/bde_isima#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add gulp gulp-sass gulp-autoprefixer gulp-uglify gulp-sourcemaps gulp-concat gulp-plumber --dev" instead.
+      at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at Object.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>

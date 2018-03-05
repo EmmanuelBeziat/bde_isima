@@ -28,7 +28,6 @@ $is_december = '12' === date('m') ? true : false;
 		<?php if ($is_december) : ?>
 		<link rel="stylesheet" href="noel/neige.css">
 		<?php endif; ?>
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css"><![endif]-->
 
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
 		<link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-icon-57x57.png">
@@ -143,11 +142,8 @@ $is_december = '12' === date('m') ? true : false;
 		<div class="bg"></div>
 
 		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/skel.min.js"></script>
-		<script src="assets/js/util.min.js"></script>
-		<script src="assets/js/konami.min.js"></script>
-		<script src="assets/js/scripts.min.js"></script>
+		<script src="assets/js/vendors/jquery.min.js"></script>
+		<script src="assets/js/vendors/skel.min.js"></script>
 		<script src="assets/js/main.min.js"></script>
 	</body>
 </html>
