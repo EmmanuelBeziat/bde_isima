@@ -1,8 +1,8 @@
 <?php
-	ini_set("display_errors", 1);
-	require "./api/api.php";
+ini_set('display_errors', 1);
+require './api/api.php';
 
-	$is_december = '12' === date('m') ? true : false;
+$is_december = '12' === date('m') ? true : false;
 ?>
 <!DOCTYPE html>
 <!--
@@ -27,7 +27,7 @@
 		<link rel="stylesheet" href="assets/css/main.css">
 		<?php if ($is_december) : ?>
 		<link rel="stylesheet" href="noel/neige.css">
-		<?php endif ?>
+		<?php endif; ?>
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css"><![endif]-->
 
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
@@ -145,9 +145,9 @@
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/skel.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
-		<script src="assets/js/scripts.js"></script>
-		<?php include ('./script_indispensable.php'); ?>
+		<script src="assets/js/util.min.js"></script>
+		<script src="assets/js/konami.min.js"></script>
+		<script src="assets/js/scripts.min.js"></script>
+		<script src="assets/js/main.min.js"></script>
 	</body>
 </html>
