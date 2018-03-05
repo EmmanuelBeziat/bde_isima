@@ -1,4 +1,5 @@
-*.conf.php
+# *.conf.php
+/api/config.bdd.yaml
 /espace_ZZ/images/uploads/*
 stats/*
 googled1fd3f1ada88d3ac.html

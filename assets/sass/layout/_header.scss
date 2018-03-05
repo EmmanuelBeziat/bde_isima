@@ -98,6 +98,7 @@
 		border-radius: _size(border-radius);
 
 		.menu__item {
+			flex: 1;
 			display: block;
 			min-width: 7.5rem;
 			height: 2.75rem;

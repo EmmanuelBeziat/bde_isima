@@ -66,7 +66,7 @@ gulp.task('images', function () {
 		.pipe(gulp.dest(path.img))
 })
 
-gulp.watch('watch', function () {
+gulp.task('watch', function () {
 	gulp.watch(path.sass + '/**/*.scss', ['styles'])
 	gulp.watch(path.js + '/**/*.js', ['scripts'])
 })

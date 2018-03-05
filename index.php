@@ -77,16 +77,17 @@ $is_december = '12' === date('m') ? true : false;
 					</div>
 				</div>
 
-				<nav class="menu">
-					<a href="#actus">News</a>
-					<!-- <a href="#bde">Le BDE</a> -->
-					<a class="menu__item" href="#clubs">Clubs</a>
-					<a class="menu__item" href="./espace_ZZ">Compte</a>
-					<a class="menu__item" href="https://drive.google.com/drive/folders/0B8UQ_-N6TCbvRDZEcUtTS1hWc2M?usp=sharing">Annales</a>
-					<a class="menu__item" href="#contact">Contact</a>
-					</ul>
-				</nav>
-				<a class="last-news" href="#actus"><span class="text-uppercase">Dernière news :</span> <?php echo api('get_news', array('nombre' => 1))['liste'][0]['titre']; ?></a>
+				<div>
+					<nav class="menu">
+						<a class="menu__item" href="#actus">News</a>
+						<!-- <a href="#bde">Le BDE</a> -->
+						<a class="menu__item" href="#clubs">Clubs</a>
+						<a class="menu__item" href="./espace_ZZ">Compte</a>
+						<a class="menu__item" href="https://drive.google.com/drive/folders/0B8UQ_-N6TCbvRDZEcUtTS1hWc2M?usp=sharing">Annales</a>
+						<a class="menu__item" href="#contact">Contact</a>
+					</nav>
+					<a class="last-news" href="#actus"><span class="text-uppercase">Dernière news :</span> <?php echo api('get_news', array('nombre' => 1))['liste'][0]['titre']; ?></a>
+				</div>
 			</header>
 
 			<!-- Main -->
